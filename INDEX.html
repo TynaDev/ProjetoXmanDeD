@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjetoXmanTynaDev</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/styles_x_Man.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    
+    
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.svg" alt="Logo do x Man">
+
+    </header>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">
+                Selecione um personagem
+            </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope"
+                data-description="Ele dispara raios laser pelos olhos, mas não
+                consegue controla los, por isso sempre precisa de uso dos óculos " >
+                    <img src="./src/imagens/card-ciclope.jpg" alt="Imagem do ciclope">
+
+                </li>
+
+                <li class="personagem" id="jean-gray" data-name="Jean Grey"
+                data-description="   Ela tem poder de telecinesia" >
+                    <img src="./src/imagens/card-jean-grey.jpg" alt="Imagem da jean-grey">
+
+                </li>
+
+                <li class="personagem" id="lince-negra" data-name="Lince negra"
+                data-description="Ela tem poder de atravessar coisas fisícas " >
+                    <img src="./src/imagens/card-lince-negra.jpg" alt="Imagem da lince-negra">
+
+                </li>
+
+                <li class="personagem" id="magneto" data-name="Magneto"
+                data-description=" Tem o poder de controlar todas coisas feitas de metal" >
+                    <img src="./src/imagens/card-magneto.jpg" alt="Imagem do magneto">
+
+                </li>
+
+                <li class="personagem" id="noturno" data-name="Noturno"
+                 data-description="Tem o poder de teletransportar em uma determinada distancia">
+                    <img src="./src/imagens/card-noturno.jpg" alt="Imagem do noturno">
+
+                </li>
+
+                <li class="personagem" id="tempestade" data-name="Tempestade"
+                data-description="Ela pode controlar condições climaticas ao seu favor">
+                    <img src="./src/imagens/card-tempestade.jpg" alt="Imagem da tempestade">
+
+                </li>
+
+                <li class="personagem" id="vampira" data-name="Vampira"
+                data-description="Seu poder e roubar o poder de uma pessoa a tocando, porém isso deixa a pessoa inconsciente ">
+                    <img src="./src/imagens/card-vampira.jpg" alt="Imagem do vampira">
+
+                </li>
+
+                <li class="personagem" id="wolverine" data-name="Wolverine"
+                data-description="Seu pode consiste em seu corpo feito de uma esqueleto de titanium e também tem o dom da imortalidade">
+                    <img src="./src/imagens/card-wolverine.jpg" alt="Imagem do wolverine">
+
+                </li>
+
+            </ul>
+
+        </section>
+
+        <section class="personagem-escolhido">
+            <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="Personagem selecionado">
+            <div class="informacoes-personagens">
+                <h2 class="nome-personagem" id="nome-personagem"></h2>
+                <p class="descricao-personagem" id="descricao-personagem"></p>
+            </div>
+
+            
+        </section>
+     
+    </main>
+
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>
